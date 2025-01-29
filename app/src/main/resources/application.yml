@@ -1,6 +1,19 @@
 spring:
   application:
     name: "OAuth-2.0-Google"
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ${CLIENT_ID}
+            client-secret: ${CLIENT_SECRET}
 
 server:
   port: 8080
+
+logging:
+  level:
+    org:
+      springframework:
+        security: TRACE
