@@ -1,4 +1,4 @@
-package com.pdp.security;
+package com.pdp.nix.security;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
